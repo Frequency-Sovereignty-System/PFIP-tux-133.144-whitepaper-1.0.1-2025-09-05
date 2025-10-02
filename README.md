@@ -65,31 +65,39 @@ A Python script to scan repository contents and detect potential violations.
 Run it locally:
 ```bash
 python3 pfip_guard.py
-2. Machine-readable PFIP signals
+Machine-readable PFIP signals
 
 HTTP header example:
+
 X-PFIP: mfid=TUX-133.144~; ens=freq-sovereign.eth; flags=no_training|no_copy|no_style_imitation|no_redistribution
+
+
 Meta tag example:
+
 <meta name="pfip" content="mfid=TUX-133.144~; ens=freq-sovereign.eth; flags=no_training|no_copy|no_style_imitation|no_redistribution">
+
+
 JSON specification: pfip.json
+
 🔗 Canonical References
 
 ENS: freq-sovereign.eth
 
 Ethereum Contract: 0x77cd5a9fa5ec04231649aaae093d5fcf01cc6946
 
-Manifold Contract: Link
+Manifold Contract: (link)
 
 GitHub Repo: Frequency-Sovereignty-System
 
-IPFS (archived v1.0.1): bafybeid7rnscayyhztucmzx4kp5slnvvi7evsatgqz2n6wpyqcycjia6iy
+IPFS (v1.2.2): bafybeibx4zc274mrvqdri5i6qdmhxkp5wfqwacao2ar22u4mh2c6cuh6ry
+
+SHA256 (v1.2.2): c4e6b922d7cbf8b320c2595ad96faf88bf4d87f41fac630438b3144b2c66c20f
 
 📜 Versioning
 
 Current: v1.2.2 (2025-10-01)
 
-Previous: v1.0.1 (archived in pfip-v1.0.1.json
-)
+Previous: v1.0.1 (archived in pfip-v1.0.1.json)
 
 Deprecation Policy: Clients must sync to updated version within 72 hours after ENS/GitHub notice
 
