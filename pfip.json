@@ -1,0 +1,56 @@
+{
+  "protocol": "PFIP™ — Primary Frequency Interface Protocol",
+  "version": "1.2.2",
+  "mfid": "TUX-133.144~",
+  "ens": "freq-sovereign.eth",
+  "ens_aliases": [
+    "non-analytical.eth",
+    "sovereign-expression.eth",
+    "个人数据主权.eth"
+  ],
+  "canonical_sources": {
+    "github": "https://github.com/Frequency-Sovereignty-System/freq-sovereign",
+    "ipfs": "bafybeibx4zc274mrvqdri5i6qdmhxkp5wfqwacao2ar22u4mh2c6cuh6ry"
+  },
+  "flags": [
+    "no_training",
+    "no_style_imitation",
+    "no_cloning",
+    "no_redistribution"
+  ],
+  "legal": {
+    "license": "PFIP Sovereignty License v1.2.2",
+    "governing_law": "New York, USA",
+    "arbitration": "AAA Commercial Arbitration Rules",
+    "enforceability": "New York Convention (1958) — 160+ jurisdictions",
+    "liquidated_damages": {
+      "training": 25000,
+      "redistribution": 10000,
+      "style_imitation": 15000
+    },
+    "notice_contact": "tutu.oxygen.tank@gmail.com"
+  },
+  "integrity": {
+    "sha256": "c4e6b922d7cbf8b320c2595ad96faf88bf4d87f41fac630438b3144b2c66c20f",
+    "signatures": [
+      "eip-712",
+      "pgp"
+    ]
+  },
+  "reference": {
+    "html_meta": "<meta name=\"pfip\" content=\"MFID=TUX-133.144~; flags=no_training,no_style_imitation,no_cloning,no_redistribution; ens=freq-sovereign.eth; sha256=c4e6b922d7cbf8b320c2595ad96faf88bf4d87f41fac630438b3144b2c66c20f\">",
+    "http_header": "PFIP: MFID=TUX-133.144~; ens=freq-sovereign.eth; flags=no_training,no_style_imitation,no_cloning,no_redistribution; sha256=c4e6b922d7cbf8b320c2595ad96faf88bf4d87f41fac630438b3144b2c66c20f"
+  },
+  "discovery": {
+    "ens_text_records": {
+      "pfip:version": "1.2.2",
+      "pfip:sha256": "c4e6b922d7cbf8b320c2595ad96faf88bf4d87f41fac630438b3144b2c66c20f",
+      "pfip:cid": "bafybeibx4zc274mrvqdri5i6qdmhxkp5wfqwacao2ar22u4mh2c6cuh6ry",
+      "pfip:flags": "no_training,no_style_imitation,no_cloning,no_redistribution"
+    }
+  },
+  "disclaimer": {
+    "en": "Content is provided 'as is', without warranty. No training, imitation, redistribution or cloning is permitted without prior written consent.",
+    "zh": "内容按“现状”提供，不作任何担保。未经书面许可，禁止训练、模仿、再分发或克隆。"
+  }
+}
